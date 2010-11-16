@@ -14,7 +14,8 @@ gem 'launchy'    # So you can do Then show me the page
 gem 'rspec-rails'
 gem 'spork'
 
-
+#Authentication 
+gem 'devise'
 
 # Use unicorn as the web server
 # gem 'unicorn'
