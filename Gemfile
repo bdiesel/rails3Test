@@ -17,6 +17,10 @@ gem 'spork'
 #Authentication 
 gem 'devise'
 
+#Javascript
+gem 'jquery-rails'
+
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
