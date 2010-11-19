@@ -1,0 +1,9 @@
+#wrap{
+width: 980px;
+margin: 0 auto;
+}
+
+#content{
+padding: 0 0 0 20px;
+width: 960px;
+}
