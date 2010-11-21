@@ -1,0 +1,21 @@
+form#user_new{
+	background: #9cbc2c;
+	border-radius: 5px;
+	padding: 20px;
+	width: 400px;
+	width: 360px;
+	padding: 20px;
+	margin: 0px auto 0px auto;
+}
+
+form#user_new fieldset:last-of-type {
+  margin-bottom: 0;
+}
+
+form#user_new legend {
+  color: #384313;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  text-shadow: 0 1px 1px #c0d576;
+}
