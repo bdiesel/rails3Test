@@ -10,6 +10,9 @@ module NavigationHelpers
 
     when /the home\s?page/
       '/'
+    when /register/
+      new_user_registration_path
+ # define this path mapping in features/support/paths.rb, usually as '/users/sign_up'
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
