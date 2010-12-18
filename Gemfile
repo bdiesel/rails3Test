@@ -13,6 +13,7 @@ gem 'database_cleaner'
 gem 'launchy'    # So you can do Then show me the page
 gem 'rspec-rails'
 gem 'spork'
+gem 'factory_girl_rails'
 
 #Authentication 
 gem 'devise'
