@@ -18,6 +18,9 @@ gem 'factory_girl_rails'
 #Authentication 
 gem 'devise'
 
+#Authorization
+gem 'declarative_authorization'
+
 #Javascript
 gem 'jquery-rails'
 

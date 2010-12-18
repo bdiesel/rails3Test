@@ -10,7 +10,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101116222351) do
+ActiveRecord::Schema.define(:version => 20101218225035) do
+
+  create_table "roles", :force => true do |t|
+    t.string "name"
+  end
+
+  create_table "roles_users", :id => false, :force => true do |t|
+    t.integer "user_id"
+    t.integer "role_id"
+  end
 
   create_table "users", :force => true do |t|
     t.string   "email",                               :default => "", :null => false
